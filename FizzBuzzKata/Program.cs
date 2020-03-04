@@ -6,7 +6,7 @@ namespace FizzBuzzKata
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ActualApp.Game();
         }
     }
 }
