@@ -23,6 +23,9 @@ namespace FizzBuzzKataTest
 
             string FourthResult = ActualApp.CheckingNumbers(30);
             Assert.Equal("FizzBuzz", FourthResult);
+
+            string FifthResult = ActualApp.CheckingNumbers(7);
+            Assert.Equal("Pop", FifthResult);
         }
     }
 }

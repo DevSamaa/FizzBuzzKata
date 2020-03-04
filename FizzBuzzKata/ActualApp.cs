@@ -22,13 +22,17 @@ namespace FizzBuzzKata
         {
 
             string message;
-            if (counter % 3 == 0 && counter % 5 != 0)
+            if (counter % 3 == 0 && counter % 5 != 0 && counter % 7 != 0)
             {
                 message = "Fizz";
             }
-            else if (counter % 5 == 0 && counter % 3 != 0)
+            else if (counter % 5 == 0 && counter % 3 != 0 && counter % 7 != 0)
             {
                 message = "Buzz";
+            }
+            else if (counter % 7 == 0 && counter % 3 != 0 && counter % 5 != 0)
+            {
+                message = "Pop";
             }
             else if (counter % 3 == 0 && counter % 5 == 0)
             {
