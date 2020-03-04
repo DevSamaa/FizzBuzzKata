@@ -6,7 +6,10 @@ namespace FizzBuzzKata
     {
         static void Main(string[] args)
         {
-            ActualApp.Game();
+            ActualApp.LoopingNumbers();
+            //ActualApp.Game3();
+            //ActualApp.Calculator();
+            //ActualApp.Printer();
         }
     }
 }
